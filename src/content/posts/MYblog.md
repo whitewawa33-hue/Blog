@@ -1,11 +1,10 @@
 ---
 title: 使用Firefly模板搭建个人网站
-published: 2026-08-29
+published: 2026-09-08
 description: '核心需求：制作一个个人的网站博客,使用Firefly网站博客模板部署'
 
 tags: [Markdown, Project]
 category: 项目
-draft: true
 ---
 
 # 一、环境配置
@@ -50,3 +49,29 @@ draft: true
 文档地址：https://docs-firefly.cuteleaf.cn/zh/guide/site.html
 ## 4.文章编写文档
 文档地址：https://docs-firefly.cuteleaf.cn/zh/guide/writing.html
+
+# 四、在cloudflare部署上线
+## 1.修改根目录文件wrangler.jsonc中的信息
+### （1）name改为项目名称"Leo"
+### （2）compatibility_date同步上传时间。
+
+## 2.在VScode中将项目git托管更新
+打开终端执行三条命令
+### (1)暂存所有修改文件
+```bash
+git add .	
+```
+### (2)创建版本快照 命名"Leo"
+```bash
+git commit -m "Leo"
+```
+### (3)将快照推送到 GitHub 远程仓库
+```bash
+git push
+```
+## 3.将git项目上传Cloudflare进行部署
+Cloudflare网址:`https://workers.cloudflare.com/`
+### 1.在左侧导航栏中选择 Build-Compute-Workers&Pages
+### 2.点击创建部署，绑定github项目进行部署
+（注：部署上传文件上限为25MB，超出会报错）
+

@@ -86,6 +86,7 @@ export const booknavConfig: BooknavGroup[] = [
 				desc: "在线PS网站",
 				weight: 9,
 			},
+			
 		],
 	},
 	{
@@ -112,6 +113,12 @@ export const booknavConfig: BooknavGroup[] = [
 				url: "https://carbon.now.sh",
 				desc: "把代码片段生成漂亮的图片",
 				weight: 8,
+			},
+			{
+				title: "FreeConvert",
+				url: "https://www.freeconvert.com/",
+				desc: "格式转换和视频压缩网站",
+				weight: 11,
 			},
 		],
 	},
