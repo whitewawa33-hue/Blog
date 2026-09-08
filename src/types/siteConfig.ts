@@ -36,7 +36,9 @@ export type SiteConfig = {
 	lang: "en" | "zh_CN" | "zh_TW" | "ja" | "ru" | "ko";
 
 	themeColor: {
-		hue: number;
+		hue: number; // 色相 0-360
+		saturation?: number; // 饱和度 0-100，映射为主色的 oklch 彩度（默认 70）
+		lightness?: number; // 明度 0-100，映射为主色的 oklch 明度（默认 70）
 		defaultMode?: LIGHT_DARK_MODE; // 默认模式：浅色、深色或跟随系统
 	};
 

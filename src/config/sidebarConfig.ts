@@ -59,20 +59,10 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			showOnPostPage: true,
 		},
 		{
-			// 组件类型：音乐播放器
-			type: "music",
-			// 是否启用该组件
-			enable: true,
-			// 组件位置
-			position: "sticky",
-			// 是否在文章详情页显示
-			showOnPostPage: true,
-		},
-		{
 			// 组件类型：分类组件
 			type: "categories",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
@@ -120,10 +110,20 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			},
 		},
 		{
+            // 组件类型：番茄钟组件
+            type: "pomodoro",
+            // 是否启用该组件
+            enable: true,
+            // 组件位置
+            position: "top",
+            // 是否在文章详情页显示（false = 文章页不显示，首页会显示）
+            showOnPostPage: false,
+        },
+		{
 			// 组件类型：站点统计组件
 			type: "stats",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 组件位置
 			position: "top",
 			// 是否在文章详情页显示
@@ -133,7 +133,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：站点信息组件
 			type: "siteInfo",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 组件位置
 			position: "top",
 			// 是否在文章详情页显示
@@ -145,6 +145,16 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 					unknownBuildPlatform: "Unknown CI",
 				},
 			},
+		},
+		{
+			// 组件类型：音乐播放器
+			type: "music",
+			// 是否启用该组件
+			enable: true,
+			// 组件位置
+			position: "sticky",
+			// 是否在文章详情页显示
+			showOnPostPage: true,
 		},
 		{
 			// 组件类型：日历组件

@@ -123,7 +123,7 @@ export const ru: Translation = {
 
 	// Фильтр и статус Бангуми текст
 	[Key.bangumiTitle]: "Мой Bangumi",
-	[Key.bangumiSubtitle]: "Запись моего аниме путешествия",
+	[Key.bangumiSubtitle]: "Мой аниме-дневник",
 	[Key.bangumiFilterAll]: "Все",
 	[Key.bangumiFilterWatched]: "Просмотрено",
 	[Key.bangumiFilterWatching]: "Смотрю",

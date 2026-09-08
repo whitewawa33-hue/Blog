@@ -32,16 +32,6 @@ export const booknavConfig: BooknavGroup[] = [
 		weight: 100,
 		items: [
 			{
-				title: "GitHub",
-				url: "https://github.com",
-				desc: "全球最大的代码托管平台",
-				// icon 字段可以使用 astro-icon 图标库的图标名称
-				// 也可以使用图片 URL 和本地图片路径
-				// 不填则会通过接口自动获取目标站点的 favicon 图标（需要在上面配置）
-				icon: "fa7-brands:github",
-				weight: 10,
-			},
-			{
 				title: "MDN Web Docs",
 				url: "https://developer.mozilla.org",
 				desc: "最权威的 Web 技术文档",
@@ -74,13 +64,7 @@ export const booknavConfig: BooknavGroup[] = [
 		desc: "好用的开源项目",
 		weight: 90,
 		items: [
-			{
-				title: "Firefly",
-				url: "https://github.com/CuteLeaf/Firefly",
-				desc: "清晰美观的 Astro 个人博客主题模板",
-				icon: "/favicon/firefly-32.png",
-				weight: 10,
-			},
+
 		],
 	},
 	{
@@ -91,15 +75,15 @@ export const booknavConfig: BooknavGroup[] = [
 		weight: 90,
 		items: [
 			{
-				title: "Iconify",
-				url: "https://icon-sets.iconify.design",
-				desc: "海量开源图标集合搜索",
+				title: "WHEE",
+				url: "https://www.whee.com/",
+				desc: "AI制图网站",
 				weight: 10,
 			},
 			{
-				title: "iconfont",
-				url: "https://www.iconfont.cn",
-				desc: "阿里巴巴矢量图标库",
+				title: "稿定",
+				url: "https://www.gaoding.com/ps-landing#/",
+				desc: "在线PS网站",
 				weight: 9,
 			},
 		],
@@ -139,10 +123,9 @@ export const booknavConfig: BooknavGroup[] = [
 		weight: 70,
 		items: [
 			{
-				title: "Firefly Docs",
-				url: "https://docs-firefly.cuteleaf.cn",
-				desc: "Firefly 主题模板文档",
-				icon: "https://docs-firefly.cuteleaf.cn/logo.png",
+				title: "iconfont",
+				url: "https://www.iconfont.cn",
+				desc: "阿里巴巴矢量图标库",
 				weight: 10,
 			},
 			{

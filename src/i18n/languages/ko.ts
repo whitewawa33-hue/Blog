@@ -122,7 +122,7 @@ export const ko: Translation = {
 
 	// Bangumi Filter and Status Text
 	[Key.bangumiTitle]: "나의 Bangumi",
-	[Key.bangumiSubtitle]: "나의 ACG 기록",
+	[Key.bangumiSubtitle]: "나의 애니 일기",
 	[Key.bangumiFilterAll]: "전체",
 	[Key.bangumiFilterWatched]: "시청 완료",
 	[Key.bangumiFilterWatching]: "시청 중",

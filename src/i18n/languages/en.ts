@@ -123,7 +123,7 @@ export const en: Translation = {
 
 	// Bangumi Filter and Status Text
 	[Key.bangumiTitle]: "My Bangumi",
-	[Key.bangumiSubtitle]: "Record my ACG journey",
+	[Key.bangumiSubtitle]: "My anime diary",
 	[Key.bangumiFilterAll]: "All",
 	[Key.bangumiFilterWatched]: "Watched",
 	[Key.bangumiFilterWatching]: "Watching",

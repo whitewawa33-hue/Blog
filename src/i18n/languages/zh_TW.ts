@@ -120,7 +120,7 @@ export const zh_TW: Translation = {
 
 	// 番組計劃
 	[Key.bangumiTitle]: "我的番組計劃",
-	[Key.bangumiSubtitle]: "記錄我的二次元之旅",
+	[Key.bangumiSubtitle]: "我的追番日記",
 
 	// 番組計劃篩選和狀態文本
 	[Key.bangumiFilterAll]: "全部",

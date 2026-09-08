@@ -185,7 +185,7 @@ export const ja: Translation = {
 
 	// VNDB
 	[Key.vndb]: "VNDB",
-	[Key.vndbSubtitle]: "私のビジュアルノベルリスト",
+	[Key.vndbSubtitle]: "私の追番日記",
 	[Key.vndbFilterAll]: "すべて",
 	[Key.vndbFilterVoted]: "評価済み",
 	[Key.vndbFilterUnvoted]: "未評価",

@@ -120,7 +120,7 @@ export const zh_CN: Translation = {
 
 	// 番组计划筛选和状态文本
 	[Key.bangumiTitle]: "我的番组计划",
-	[Key.bangumiSubtitle]: "记录我的二次元之旅",
+	[Key.bangumiSubtitle]: "我的追番日记",
 	[Key.bangumiFilterAll]: "全部",
 	[Key.bangumiFilterWatched]: "看过",
 	[Key.bangumiFilterWatching]: "在看",
