@@ -3,7 +3,7 @@ title: 使用Firefly模板搭建个人网站
 published: 2026-09-08
 description: '核心需求：制作一个个人的网站博客,使用Firefly网站博客模板部署'
 
-tags: [Markdown, Project]
+tags: [Project]
 category: 项目
 ---
 

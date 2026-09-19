@@ -2,7 +2,7 @@
 title: Claude Code常用指令合集
 published: 2026-09-06
 description: '收集记录一些Claude Code我常用的指令'
-tags: [Markdown, Guide]
+tags: [Vibecoding, Guide]
 category: 教程
 ---
   ## 1.常用

@@ -20,7 +20,7 @@ const pages = resolvePageToggles({
 	// 动态页面开关
 	dynamic: true,
 	// 相册页面开关
-	gallery: true,
+	gallery: false,
 	// 书签导航页面开关
 	booknav: true,
 	// 哔哩哔哩追番页面开关
@@ -46,7 +46,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "Site",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://Leo.cn",
 
 	// 站点描述
 	description:
