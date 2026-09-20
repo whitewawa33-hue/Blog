@@ -36,7 +36,7 @@ category: 项目
 ```
 ## 6.网站预览 
 打开本地服务器，获得localhost。
-```Bash
+```bash
 -pnpm dev 
 ```
 在浏览器中输入localhost，打开博客网站进行效果预览。
@@ -61,9 +61,9 @@ category: 项目
 ```bash
 git add .	
 ```
-### (2)创建版本快照 命名"Leo"
+### (2)创建版本快照 命名"leo"
 ```bash
-git commit -m "Leo"
+git commit -m "leo"
 ```
 ### (3)将快照推送到 GitHub 远程仓库
 ```bash
